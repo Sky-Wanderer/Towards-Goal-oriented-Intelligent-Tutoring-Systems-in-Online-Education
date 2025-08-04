@@ -1,0 +1,52 @@
+{
+  "build": "py311h5eee18b_1002",
+  "build_number": 1002,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.0.0",
+    "libgcc-ng >=11.2.0",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/storage/zfren/miniconda3/pkgs/brotlipy-0.7.0-py311h5eee18b_1002",
+  "features": "",
+  "files": [
+    "lib/python3.11/site-packages/brotli/__init__.py",
+    "lib/python3.11/site-packages/brotli/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/brotli/__pycache__/brotli.cpython-311.pyc",
+    "lib/python3.11/site-packages/brotli/__pycache__/build.cpython-311.pyc",
+    "lib/python3.11/site-packages/brotli/_brotli.abi3.so",
+    "lib/python3.11/site-packages/brotli/brotli.py",
+    "lib/python3.11/site-packages/brotli/build.py",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/PKG-INFO",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/SOURCES.txt",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/dependency_links.txt",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/not-zip-safe",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/requires.txt",
+    "lib/python3.11/site-packages/brotlipy-0.7.0-py3.11.egg-info/top_level.txt"
+  ],
+  "fn": "brotlipy-0.7.0-py311h5eee18b_1002.conda",
+  "legacy_bz2_md5": "a10a5d31121de0ff9b333dafca8dc70a",
+  "legacy_bz2_size": 352437,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/storage/zfren/miniconda3/pkgs/brotlipy-0.7.0-py311h5eee18b_1002",
+    "type": 1
+  },
+  "md5": "d0decdefee9dcf89dcbaad2ffd30b830",
+  "name": "brotlipy",
+  "package_tarball_full_path": "/storage/zfren/miniconda3/pkgs/brotlipy-0.7.0-py311h5eee18b_1002.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::brotlipy==0.7.0=py311h5eee18b_1002[md5=d0decdefee9dcf89dcbaad2ffd30b830]",
+  "sha256": "8fc67d103f8a9281e721ed2dae64324f6200ba48db2263c70408d06bdc01753f",
+  "size": 314700,
+  "subdir": "linux-64",
+  "timestamp": 1676822696758,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/brotlipy-0.7.0-py311h5eee18b_1002.conda",
+  "version": "0.7.0"
+}

@@ -1,0 +1,64 @@
+{
+  "build": "h6a678d5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/storage/zfren/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_0",
+  "features": "",
+  "files": [
+    "bin/lz4",
+    "bin/lz4c",
+    "bin/lz4cat",
+    "bin/unlz4",
+    "include/lz4.h",
+    "include/lz4frame.h",
+    "include/lz4frame_static.h",
+    "include/lz4hc.h",
+    "lib/liblz4.so",
+    "lib/liblz4.so.1",
+    "lib/liblz4.so.1.9.4",
+    "lib/pkgconfig/liblz4.pc",
+    "share/man/man1/lz4.1",
+    "share/man/man1/lz4c.1",
+    "share/man/man1/lz4cat.1",
+    "share/man/man1/unlz4.1"
+  ],
+  "fn": "lz4-c-1.9.4-h6a678d5_0.conda",
+  "legacy_bz2_md5": "f24adbfdfe16b0bac0d14640bb5ce616",
+  "legacy_bz2_size": 163649,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/storage/zfren/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_0",
+    "type": 1
+  },
+  "md5": "53915e9402180a7f22ea619c41089520",
+  "name": "lz4-c",
+  "package_tarball_full_path": "/storage/zfren/miniconda3/pkgs/lz4-c-1.9.4-h6a678d5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/liblz4.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/lz4-c_1670944666727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "fc857dbda87f7bcd4fccfd379357f468e4cebca4f1b6a254f8bd6ee505c4ef54",
+        "sha256_in_prefix": "fcac3baf51fd1527bf3e73a067d8b241b98be544516f08d78ff0e1f0d4fb9a01",
+        "size_in_bytes": 640
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::lz4-c==1.9.4=h6a678d5_0[md5=53915e9402180a7f22ea619c41089520]",
+  "sha256": "763815f0f0795e4240df99d1992ae9799b3ac62eaea97438086526988ef31073",
+  "size": 158001,
+  "subdir": "linux-64",
+  "timestamp": 1670944701605,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/lz4-c-1.9.4-h6a678d5_0.conda",
+  "version": "1.9.4"
+}

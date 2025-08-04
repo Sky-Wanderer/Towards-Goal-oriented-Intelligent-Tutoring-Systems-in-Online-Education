@@ -1,0 +1,66 @@
+{
+  "build": "h295c915_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "reproc 14.2.4 h295c915_1"
+  ],
+  "extracted_package_dir": "/storage/zfren/miniconda3/pkgs/reproc-cpp-14.2.4-h295c915_1",
+  "features": "",
+  "files": [
+    "include/reproc++/arguments.hpp",
+    "include/reproc++/detail/array.hpp",
+    "include/reproc++/detail/type_traits.hpp",
+    "include/reproc++/drain.hpp",
+    "include/reproc++/env.hpp",
+    "include/reproc++/export.hpp",
+    "include/reproc++/input.hpp",
+    "include/reproc++/reproc.hpp",
+    "include/reproc++/run.hpp",
+    "lib/cmake/reproc++/reproc++-config-version.cmake",
+    "lib/cmake/reproc++/reproc++-config.cmake",
+    "lib/cmake/reproc++/reproc++-targets-release.cmake",
+    "lib/cmake/reproc++/reproc++-targets.cmake",
+    "lib/libreproc++.so",
+    "lib/libreproc++.so.14",
+    "lib/libreproc++.so.14.2.4",
+    "lib/pkgconfig/reproc++.pc"
+  ],
+  "fn": "reproc-cpp-14.2.4-h295c915_1.conda",
+  "legacy_bz2_md5": "7a41df82594155f7e4afea46041b6609",
+  "legacy_bz2_size": 23063,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/storage/zfren/miniconda3/pkgs/reproc-cpp-14.2.4-h295c915_1",
+    "type": 1
+  },
+  "md5": "740e5ba0474526bb866d44b66bb9243b",
+  "name": "reproc-cpp",
+  "package_tarball_full_path": "/storage/zfren/miniconda3/pkgs/reproc-cpp-14.2.4-h295c915_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/reproc++.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/reproc_1647441763203/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "813139f5029db13067fd043ec6b565607f0bd1e3bfe6a83788f1747bd7e968fe",
+        "sha256_in_prefix": "13322e368c3510cb2f47a07ea00b1e289500df8f26152c0e48ec2330198a8d0a",
+        "size_in_bytes": 579
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::reproc-cpp==14.2.4=h295c915_1[md5=740e5ba0474526bb866d44b66bb9243b]",
+  "sha256": "27322d2d14c7f0597cffda71c7359c4907268a4ab3fa92ddaacdc980c54fb8ff",
+  "size": 22682,
+  "subdir": "linux-64",
+  "timestamp": 1647441839399,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/reproc-cpp-14.2.4-h295c915_1.conda",
+  "version": "14.2.4"
+}

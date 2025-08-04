@@ -1,0 +1,6726 @@
+nohup: ignoring input
+cuda
+data_set:MOOC
+dataset:MOOC, concept_length:298
+args.concept_num: 298
+args.entropy_method: weight_entropy
+mastery and patience
+0.9 3.5
+train_data: load RL valid data
+user_dict init successfully!(ingnored)
+transe Embedding load successfully!
+reward_dict {'ask_suc': 0.01, 'ask_fail': -0.1, 'rec_suc': 1, 'rec_fail': -0.2, 'until_T': -0.3, 'cand_none': -0.1}
+parameter 30 20
+pre-trained embeddings
+mastery and patience
+0.9 3.5
+train_data: load RL valid data
+user_dict init successfully!(ingnored)
+transe Embedding load successfully!
+reward_dict {'ask_suc': 0.01, 'ask_fail': -0.1, 'rec_suc': 1, 'rec_fail': -0.2, 'until_T': -0.3, 'cand_none': -0.1}
+parameter 30 20
+pre-trained embeddings
+reset! 0.5 4.0
+sampling:   0%|          | 0/100 [00:00<?, ?it/s]sampling:   1%|          | 1/100 [00:10<16:41, 10.12s/it]sampling:   2%|▏         | 2/100 [00:13<09:38,  5.91s/it]sampling:   3%|▎         | 3/100 [00:16<07:32,  4.67s/it]sampling:   4%|▍         | 4/100 [00:17<05:02,  3.15s/it]sampling:   5%|▌         | 5/100 [00:17<03:18,  2.09s/it]sampling:   6%|▌         | 6/100 [00:17<02:13,  1.42s/it]sampling:   7%|▋         | 7/100 [00:17<01:39,  1.07s/it]sampling:   8%|▊         | 8/100 [00:18<01:25,  1.07it/s]sampling:   9%|▉         | 9/100 [00:19<01:34,  1.04s/it]sampling:  10%|█         | 10/100 [00:23<02:37,  1.75s/it]sampling:  11%|█         | 11/100 [00:29<04:34,  3.08s/it]sampling:  12%|█▏        | 12/100 [00:32<04:44,  3.23s/it]sampling:  13%|█▎        | 13/100 [00:40<06:50,  4.71s/it]sampling:  14%|█▍        | 14/100 [00:46<07:01,  4.90s/it]sampling:  15%|█▌        | 15/100 [00:50<06:51,  4.85s/it]sampling:  16%|█▌        | 16/100 [00:57<07:26,  5.31s/it]sampling:  17%|█▋        | 17/100 [01:04<07:57,  5.76s/it]sampling:  18%|█▊        | 18/100 [01:08<07:18,  5.35s/it]sampling:  19%|█▉        | 19/100 [01:11<06:17,  4.66s/it]sampling:  20%|██        | 20/100 [01:14<05:34,  4.18s/it]sampling:  21%|██        | 21/100 [01:17<05:10,  3.94s/it]sampling:  22%|██▏       | 22/100 [01:23<05:51,  4.50s/it]sampling:  23%|██▎       | 23/100 [01:29<06:21,  4.95s/it]sampling:  24%|██▍       | 24/100 [01:34<06:10,  4.87s/it]sampling:  25%|██▌       | 25/100 [01:37<05:16,  4.23s/it]sampling:  26%|██▌       | 26/100 [01:43<06:02,  4.89s/it]sampling:  27%|██▋       | 27/100 [01:48<05:57,  4.90s/it]sampling:  28%|██▊       | 28/100 [01:52<05:30,  4.59s/it]sampling:  29%|██▉       | 29/100 [01:56<05:22,  4.54s/it]sampling:  30%|███       | 30/100 [02:00<04:59,  4.27s/it]sampling:  31%|███       | 31/100 [02:04<04:51,  4.23s/it]sampling:  32%|███▏      | 32/100 [02:07<04:20,  3.83s/it]sampling:  33%|███▎      | 33/100 [02:14<05:27,  4.89s/it]sampling:  34%|███▍      | 34/100 [02:17<04:42,  4.27s/it]sampling:  35%|███▌      | 35/100 [02:24<05:24,  5.00s/it]sampling:  36%|███▌      | 36/100 [02:26<04:33,  4.27s/it]sampling:  37%|███▋      | 37/100 [02:30<04:07,  3.93s/it]sampling:  38%|███▊      | 38/100 [02:33<03:56,  3.82s/it]sampling:  39%|███▉      | 39/100 [02:37<03:47,  3.73s/it]sampling:  40%|████      | 40/100 [02:40<03:35,  3.60s/it]sampling:  41%|████      | 41/100 [02:46<04:06,  4.18s/it]sampling:  42%|████▏     | 42/100 [02:49<03:48,  3.95s/it]sampling:  43%|████▎     | 43/100 [02:54<04:09,  4.38s/it]sampling:  44%|████▍     | 44/100 [02:59<04:08,  4.43s/it]sampling:  45%|████▌     | 45/100 [03:06<04:55,  5.37s/it]sampling:  46%|████▌     | 46/100 [03:11<04:36,  5.12s/it]sampling:  47%|████▋     | 47/100 [03:16<04:29,  5.09s/it]sampling:  48%|████▊     | 48/100 [03:22<04:47,  5.53s/it]sampling:  49%|████▉     | 49/100 [03:28<04:34,  5.38s/it]sampling:  50%|█████     | 50/100 [03:32<04:17,  5.14s/it]sampling:  51%|█████     | 51/100 [03:36<03:50,  4.70s/it]sampling:  52%|█████▏    | 52/100 [03:41<03:51,  4.82s/it]sampling:  53%|█████▎    | 53/100 [03:45<03:34,  4.56s/it]sampling:  54%|█████▍    | 54/100 [03:51<03:52,  5.06s/it]sampling:  55%|█████▌    | 55/100 [03:56<03:47,  5.05s/it]sampling:  56%|█████▌    | 56/100 [03:59<03:17,  4.49s/it]sampling:  57%|█████▋    | 57/100 [04:04<03:21,  4.68s/it]sampling:  58%|█████▊    | 58/100 [04:08<03:03,  4.38s/it]sampling:  59%|█████▉    | 59/100 [04:11<02:39,  3.89s/it]sampling:  60%|██████    | 60/100 [04:17<03:08,  4.71s/it]sampling:  61%|██████    | 61/100 [04:21<02:53,  4.45s/it]sampling:  62%|██████▏   | 62/100 [04:24<02:34,  4.06s/it]sampling:  63%|██████▎   | 63/100 [04:29<02:31,  4.11s/it]sampling:  64%|██████▍   | 64/100 [04:32<02:17,  3.82s/it]sampling:  65%|██████▌   | 65/100 [04:38<02:37,  4.51s/it]sampling:  66%|██████▌   | 66/100 [04:46<03:05,  5.46s/it]sampling:  67%|██████▋   | 67/100 [04:47<02:20,  4.27s/it]sampling:  68%|██████▊   | 68/100 [04:52<02:17,  4.31s/it]sampling:  69%|██████▉   | 69/100 [04:54<02:01,  3.91s/it]sampling:  70%|███████   | 70/100 [04:59<02:02,  4.09s/it]sampling:  71%|███████   | 71/100 [05:03<01:55,  4.00s/it]sampling:  72%|███████▏  | 72/100 [05:06<01:46,  3.81s/it]sampling:  73%|███████▎  | 73/100 [05:14<02:15,  5.02s/it]sampling:  74%|███████▍  | 74/100 [05:18<02:00,  4.64s/it]sampling:  75%|███████▌  | 75/100 [05:25<02:18,  5.55s/it]sampling:  76%|███████▌  | 76/100 [05:30<02:06,  5.26s/it]sampling:  77%|███████▋  | 77/100 [05:33<01:45,  4.58s/it]sampling:  78%|███████▊  | 78/100 [05:37<01:39,  4.53s/it]sampling:  79%|███████▉  | 79/100 [05:43<01:40,  4.77s/it]sampling:  80%|████████  | 80/100 [05:48<01:39,  4.96s/it]sampling:  81%|████████  | 81/100 [05:52<01:26,  4.53s/it]sampling:  82%|████████▏ | 82/100 [05:56<01:21,  4.51s/it]sampling:  83%|████████▎ | 83/100 [05:59<01:09,  4.10s/it]sampling:  84%|████████▍ | 84/100 [06:04<01:08,  4.30s/it]sampling:  85%|████████▌ | 85/100 [06:09<01:07,  4.49s/it]sampling:  86%|████████▌ | 86/100 [06:16<01:14,  5.32s/it]sampling:  87%|████████▋ | 87/100 [06:23<01:12,  5.60s/it]sampling:  88%|████████▊ | 88/100 [06:27<01:01,  5.15s/it]sampling:  89%|████████▉ | 89/100 [06:33<00:59,  5.41s/it]sampling:  90%|█████████ | 90/100 [06:38<00:52,  5.29s/it]
+================new tuple:0====================
+-----------reset state vector------------
+user_id:3619, target_item:259
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+367 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+366 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+372 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:1====================
+-----------reset state vector------------
+user_id:1507, target_item:282
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+149 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+153 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+477 17
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:20-------------
+20 master already!
+--> Maximum number of turns reached !
+
+================new tuple:2====================
+-----------reset state vector------------
+user_id:3717, target_item:145
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+316 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+439 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+441 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+322 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+329 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+447 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:3====================
+-----------reset state vector------------
+user_id:3188, target_item:3
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 8
+---------------step:9-------------
+9 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+508 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 15
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:17-------------
+test concept
+-->Ask successfully!
+
+================new tuple:4====================
+-----------reset state vector------------
+user_id:2803, target_item:96
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+87 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+686 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:5====================
+-----------reset state vector------------
+user_id:3085, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:6====================
+-----------reset state vector------------
+user_id:3321, target_item:85
+predecessor num: 4
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:7====================
+-----------reset state vector------------
+user_id:1112, target_item:135
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 7
+---------------step:8-------------
+8 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:8====================
+-----------reset state vector------------
+user_id:976, target_item:240
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+686 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+681 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+689 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1067 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+103 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+87 19
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:9====================
+-----------reset state vector------------
+user_id:2880, target_item:218
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+240 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+50 10
+---------------step:11-------------
+11 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:10====================
+-----------reset state vector------------
+user_id:2297, target_item:99
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+111 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+109 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+107 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+106 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+115 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:11====================
+-----------reset state vector------------
+user_id:4619, target_item:160
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+473 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+183 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:12====================
+-----------reset state vector------------
+user_id:4231, target_item:10
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+577 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+666 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+594 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+583 14
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:13====================
+-----------reset state vector------------
+user_id:3950, target_item:255
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+524 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+549 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+545 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+523 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+180 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+547 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:14====================
+-----------reset state vector------------
+user_id:4220, target_item:93
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+149 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:15====================
+-----------reset state vector------------
+user_id:4152, target_item:125
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+107 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+106 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+119 7
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+103 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:16====================
+-----------reset state vector------------
+user_id:1881, target_item:202
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 7
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+17 13
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 14
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+test concept
+-->Ask successfully!
+
+================new tuple:17====================
+-----------reset state vector------------
+user_id:3208, target_item:131
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:18====================
+-----------reset state vector------------
+user_id:2213, target_item:10
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+42 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:19====================
+-----------reset state vector------------
+user_id:3192, target_item:254
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:20====================
+-----------reset state vector------------
+user_id:1559, target_item:109
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+107 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+628 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:21====================
+-----------reset state vector------------
+user_id:2719, target_item:202
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+406 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+629 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+508 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:22====================
+-----------reset state vector------------
+user_id:2041, target_item:90
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:23====================
+-----------reset state vector------------
+user_id:2433, target_item:22
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+567 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+7 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+6 9
+---------------step:10-------------
+10 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+564 11
+---------------step:12-------------
+test concept
+-->Ask successfully!
+
+================new tuple:24====================
+-----------reset state vector------------
+user_id:2490, target_item:136
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+87 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:25====================
+-----------reset state vector------------
+user_id:4046, target_item:117
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+394 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+299 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+300 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+415 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:26====================
+-----------reset state vector------------
+user_id:3423, target_item:205
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 4
+---------------step:5-------------
+5 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+60 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+606 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+test concept
+-->Ask successfully!
+
+================new tuple:27====================
+-----------reset state vector------------
+user_id:2887, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 1
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:28====================
+-----------reset state vector------------
+user_id:3747, target_item:213
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 9
+---------------step:10-------------
+test concept
+-->Ask successfully!
+
+================new tuple:29====================
+-----------reset state vector------------
+user_id:1092, target_item:282
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+939 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1037 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:30====================
+-----------reset state vector------------
+user_id:4659, target_item:22
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+567 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+568 10
+---------------step:11-------------
+test concept
+-->Ask successfully!
+
+================new tuple:31====================
+-----------reset state vector------------
+user_id:3539, target_item:131
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 1
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 6
+---------------step:7-------------
+7 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:32====================
+-----------reset state vector------------
+user_id:1789, target_item:18
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+183 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+46 14
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:33====================
+-----------reset state vector------------
+user_id:3025, target_item:129
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+183 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+196 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+189 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+192 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 7
+---------------step:8-------------
+test concept
+-->Ask successfully!
+
+================new tuple:34====================
+-----------reset state vector------------
+user_id:4330, target_item:213
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1161 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+193 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 9
+---------------step:10-------------
+test concept
+-->Ask fail !
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 11
+---------------step:12-------------
+test concept
+-->Ask fail !
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 13
+---------------step:14-------------
+test concept
+-->Ask fail !
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 15
+---------------step:16-------------
+16 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:35====================
+-----------reset state vector------------
+user_id:2317, target_item:168
+predecessor num: 6
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+301 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:36====================
+-----------reset state vector------------
+user_id:1783, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+test concept
+-->Ask successfully!
+
+================new tuple:37====================
+-----------reset state vector------------
+user_id:1430, target_item:151
+predecessor num: 11
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+628 1
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+636 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+71 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+630 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+629 7
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+test concept
+-->Ask successfully!
+
+================new tuple:38====================
+-----------reset state vector------------
+user_id:4183, target_item:160
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+473 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+183 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+189 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:39====================
+-----------reset state vector------------
+user_id:2834, target_item:96
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1063 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1067 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+685 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+686 8
+---------------step:9-------------
+9 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:40====================
+-----------reset state vector------------
+user_id:2655, target_item:230
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1161 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1154 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1162 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+905 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+94 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:41====================
+-----------reset state vector------------
+user_id:2143, target_item:230
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 7
+---------------step:8-------------
+test concept
+-->Ask successfully!
+
+================new tuple:42====================
+-----------reset state vector------------
+user_id:2666, target_item:131
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 9
+---------------step:10-------------
+test concept
+-->Ask fail !
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:43====================
+-----------reset state vector------------
+user_id:2192, target_item:128
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 6
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+test concept
+-->Ask successfully!
+
+================new tuple:44====================
+-----------reset state vector------------
+user_id:2377, target_item:246
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 7
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 16
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+test concept
+-->Ask successfully!
+
+================new tuple:45====================
+-----------reset state vector------------
+user_id:3714, target_item:260
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+163 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+687 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+158 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+169 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+176 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:46====================
+-----------reset state vector------------
+user_id:4602, target_item:149
+predecessor num: 2
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+660 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+99 11
+---------------step:12-------------
+test concept
+-->Ask fail !
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:47====================
+-----------reset state vector------------
+user_id:4330, target_item:213
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+721 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+272 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 14
+---------------step:15-------------
+test concept
+-->Ask fail !
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 16
+---------------step:17-------------
+17 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:48====================
+-----------reset state vector------------
+user_id:2322, target_item:19
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+349 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 7
+---------------step:8-------------
+8 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+test concept
+-->Ask successfully!
+
+================new tuple:49====================
+-----------reset state vector------------
+user_id:3325, target_item:236
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1161 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:50====================
+-----------reset state vector------------
+user_id:2954, target_item:10
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+42 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+577 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+583 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+594 9
+---------------step:10-------------
+test concept
+-->Ask successfully!
+
+================new tuple:51====================
+-----------reset state vector------------
+user_id:2270, target_item:202
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+576 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+577 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+629 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+587 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+71 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+109 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:52====================
+-----------reset state vector------------
+user_id:3642, target_item:149
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1165 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1168 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1167 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:53====================
+-----------reset state vector------------
+user_id:3578, target_item:246
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+392 3
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+296 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 14
+---------------step:15-------------
+15 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:54====================
+-----------reset state vector------------
+user_id:4402, target_item:213
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+203 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:55====================
+-----------reset state vector------------
+user_id:2639, target_item:238
+predecessor num: 2
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+346 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 8
+---------------step:9-------------
+test concept
+-->Ask successfully!
+
+================new tuple:56====================
+-----------reset state vector------------
+user_id:3139, target_item:213
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 11
+---------------step:12-------------
+12 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+test concept
+-->Ask successfully!
+
+================new tuple:57====================
+-----------reset state vector------------
+user_id:4264, target_item:128
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:58====================
+-----------reset state vector------------
+user_id:109, target_item:22
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+7 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+567 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+564 7
+---------------step:8-------------
+test concept
+-->Ask successfully!
+
+================new tuple:59====================
+-----------reset state vector------------
+user_id:3699, target_item:218
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+240 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+50 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+42 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+241 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+235 14
+---------------step:15-------------
+test concept
+-->Ask fail !
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 16
+---------------step:17-------------
+17 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:60====================
+-----------reset state vector------------
+user_id:1402, target_item:99
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+108 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1063 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 6
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+test concept
+-->Ask successfully!
+
+================new tuple:61====================
+-----------reset state vector------------
+user_id:140, target_item:85
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+582 1
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+577 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+586 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+718 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+583 6
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 7
+---------------step:8-------------
+test concept
+-->Ask successfully!
+
+================new tuple:62====================
+-----------reset state vector------------
+user_id:4461, target_item:260
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+508 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:63====================
+-----------reset state vector------------
+user_id:4232, target_item:236
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+196 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+189 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:64====================
+-----------reset state vector------------
+user_id:3572, target_item:267
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+94 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+671 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+6 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+666 14
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+98 15
+---------------step:16-------------
+16 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+test concept
+-->Ask successfully!
+
+================new tuple:65====================
+-----------reset state vector------------
+user_id:3417, target_item:254
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1063 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+208 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+20 14
+---------------step:15-------------
+15 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+7 17
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+6 18
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 19
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:66====================
+-----------reset state vector------------
+user_id:3855, target_item:111
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1066 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 3
+---------------step:4-------------
+4 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:67====================
+-----------reset state vector------------
+user_id:4229, target_item:230
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+624 10
+---------------step:11-------------
+11 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:68====================
+-----------reset state vector------------
+user_id:4572, target_item:108
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+196 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:69====================
+-----------reset state vector------------
+user_id:4439, target_item:238
+predecessor num: 2
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:70====================
+-----------reset state vector------------
+user_id:1163, target_item:141
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+305 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+686 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+301 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+520 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:71====================
+-----------reset state vector------------
+user_id:3262, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 3
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 8
+---------------step:9-------------
+test concept
+-->Ask successfully!
+
+================new tuple:72====================
+-----------reset state vector------------
+user_id:1778, target_item:18
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 1
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 9
+---------------step:10-------------
+10 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+46 13
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+192 16
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:19-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:20-------------
+--> Maximum number of turns reached !
+
+================new tuple:73====================
+-----------reset state vector------------
+user_id:2555, target_item:67
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+42 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+739 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:74====================
+-----------reset state vector------------
+user_id:3930, target_item:213
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+test concept
+-->Ask fail !
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1161 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+196 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 14
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 15
+---------------step:16-------------
+test concept
+-->Ask fail !
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 17
+---------------step:18-------------
+18 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:75====================
+-----------reset state vector------------
+user_id:2685, target_item:99
+predecessor num: 4
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+106 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+109 5
+---------------step:6-------------
+6 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+108 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+test concept
+-->Ask successfully!
+
+================new tuple:76====================
+-----------reset state vector------------
+user_id:4239, target_item:296
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+628 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:77====================
+-----------reset state vector------------
+user_id:4229, target_item:230
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:78====================
+-----------reset state vector------------
+user_id:2883, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+348 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+511 13
+---------------step:14-------------
+14 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:79====================
+-----------reset state vector------------
+user_id:3755, target_item:267
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+10 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+94 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+666 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+test concept
+-->Ask fail !
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+6 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+98 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+test concept
+-->Ask fail !
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:80====================
+-----------reset state vector------------
+user_id:1534, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 3
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+3 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 10
+---------------step:11-------------
+11 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:81====================
+-----------reset state vector------------
+user_id:4422, target_item:230
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+4 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 10
+---------------step:11-------------
+11 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:82====================
+-----------reset state vector------------
+user_id:2524, target_item:93
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 3
+---------------step:4-------------
+4 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+2 8
+---------------step:9-------------
+test concept
+-->Ask successfully!
+
+================new tuple:83====================
+-----------reset state vector------------
+user_id:3991, target_item:22
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+7 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+9 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+567 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 9
+---------------step:10-------------
+test concept
+-->Ask fail !
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+6 13
+---------------step:14-------------
+14 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:84====================
+-----------reset state vector------------
+user_id:4279, target_item:230
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+511 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:85====================
+-----------reset state vector------------
+user_id:3245, target_item:67
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+42 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+149 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+test concept
+-->Ask fail !
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:18-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+153 18
+---------------step:19-------------
+19 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:20-------------
+--> Maximum number of turns reached !
+sampling:  91%|█████████ | 91/100 [06:46<00:56,  6.31s/it]sampling:  92%|█████████▏| 92/100 [06:51<00:47,  5.89s/it]sampling:  93%|█████████▎| 93/100 [06:59<00:45,  6.51s/it]sampling:  94%|█████████▍| 94/100 [07:02<00:33,  5.50s/it]sampling:  95%|█████████▌| 95/100 [07:07<00:26,  5.27s/it]sampling:  96%|█████████▌| 96/100 [07:11<00:19,  4.89s/it]sampling:  97%|█████████▋| 97/100 [07:15<00:14,  4.74s/it]sampling:  98%|█████████▊| 98/100 [07:23<00:11,  5.58s/it]sampling:  99%|█████████▉| 99/100 [07:29<00:05,  5.69s/it]sampling: 100%|██████████| 100/100 [07:34<00:00,  5.39s/it]sampling: 100%|██████████| 100/100 [07:34<00:00,  4.54s/it]
+
+================new tuple:86====================
+-----------reset state vector------------
+user_id:3909, target_item:259
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1161 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+899 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+884 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1154 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1162 12
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1140 13
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:87====================
+-----------reset state vector------------
+user_id:2775, target_item:252
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1110 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+37 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 5
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+60 6
+---------------step:7-------------
+7 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+215 8
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 9
+---------------step:10-------------
+test concept
+-->Ask successfully!
+
+================new tuple:88====================
+-----------reset state vector------------
+user_id:4364, target_item:260
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+163 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+157 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+158 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+169 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+146 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+974 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+958 12
+---------------step:13-------------
+test concept
+-->Ask fail !
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+170 14
+---------------step:15-------------
+15 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:89====================
+-----------reset state vector------------
+user_id:4475, target_item:254
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1063 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:90====================
+-----------reset state vector------------
+user_id:3170, target_item:117
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+403 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+296 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+415 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+300 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1032 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1063 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+410 14
+---------------step:15-------------
+15 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:91====================
+-----------reset state vector------------
+user_id:4148, target_item:19
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+349 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+688 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:92====================
+-----------reset state vector------------
+user_id:2201, target_item:282
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+33 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+27 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+149 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+31 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+153 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+19 8
+---------------step:9-------------
+9 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+20 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:13-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:16-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:17-------------
+test concept
+-->Ask successfully!
+
+================new tuple:93====================
+-----------reset state vector------------
+user_id:2436, target_item:93
+predecessor num: 1
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 3
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+511 7
+---------------step:8-------------
+8 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:94====================
+-----------reset state vector------------
+user_id:2214, target_item:111
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+41 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 3
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 4
+---------------step:5-------------
+5 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+1064 9
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 10
+---------------step:11-------------
+test concept
+-->Ask successfully!
+
+================new tuple:95====================
+-----------reset state vector------------
+user_id:1137, target_item:238
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+0 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+505 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+514 3
+---------------step:4-------------
+test concept
+-->Ask fail !
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+510 5
+---------------step:6-------------
+test concept
+-->Ask fail !
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+511 7
+---------------step:8-------------
+test concept
+-->Ask fail !
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+509 9
+---------------step:10-------------
+10 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:96====================
+-----------reset state vector------------
+user_id:2803, target_item:96
+predecessor num: 2
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+87 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+640 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+648 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+
+================new tuple:97====================
+-----------reset state vector------------
+user_id:1583, target_item:228
+predecessor num: 0
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+305 1
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+573 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+213 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+228 7
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 10
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+216 11
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+741 12
+---------------step:13-------------
+13 master already!
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 13
+---------------step:14-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: proficiency 
+---------------step:15-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 15
+---------------step:16-------------
+test concept
+-->Ask successfully!
+
+================new tuple:98====================
+-----------reset state vector------------
+user_id:396, target_item:213
+predecessor num: 0
+---------------step:1-------------
+test concept
+-->Ask fail !
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+186 2
+---------------step:3-------------
+test concept
+-->Ask fail !
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+218 4
+---------------step:5-------------
+test concept
+-->Ask fail !
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+271 6
+---------------step:7-------------
+test concept
+-->Ask fail !
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+38 8
+---------------step:9-------------
+test concept
+-->Ask fail !
+---------------step:10-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+225 10
+---------------step:11-------------
+test concept
+-->Ask fail !
+---------------step:12-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+220 12
+---------------step:13-------------
+13 master already!
+test concept
+-->Ask successfully!
+
+================new tuple:99====================
+-----------reset state vector------------
+user_id:2800, target_item:153
+predecessor num: 1
+---------------step:1-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:2-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+316 2
+---------------step:3-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:4-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+439 4
+---------------step:5-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:6-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+437 6
+---------------step:7-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:8-------------
+-->action: recommend items
+testing model...
+training model...
+recommend fail: too small
+---------------step:9-------------
+-->action: recommend items
+testing model...
+training model...
+recommend successfully:
+434 9
+---------------step:10-------------
+test concept
+-->Ask fail !
+---------------step:11-------------
+-->action: recommend items
+testing model...
+training model...
+out of patience
+loss : 0.2022918701171875 in epoch_uesr 100
+SR10:0.19, SR15:0.43, SR20:0.53, AvgT:12.14, PATIENCE:2.5179051461815836, rewards:7.13 Total epoch_uesr:100
+RL policy model saved at ./tmp/mooc/RL-agent/train-data-MOOC-RL-cand_num-10-cand_item_num-30-embed-transe-seq-mean-gcn-True-PHY-phy-sorted2-0.5-epoch-1.pkl
+sampling:   0%|          | 0/100 [00:00<?, ?it/s]sampling:   1%|          | 1/100 [00:05<08:19,  5.04s/it]sampling:   2%|▏         | 2/100 [00:12<10:28,  6.41s/it]sampling:   3%|▎         | 3/100 [00:20<11:41,  7.23s/it]sampling:   4%|▍         | 4/100 [00:25<10:19,  6.45s/it]sampling:   5%|▌         | 5/100 [00:34<11:18,  7.14s/it]sampling:   6%|▌         | 6/100 [00:39<10:13,  6.53s/it]sampling:   7%|▋         | 7/100 [00:42<08:19,  5.38s/it]sampling:   8%|▊         | 8/100 [00:45<06:53,  4.49s/it]sampling:   9%|▉         | 9/100 [00:49<06:29,  4.29s/it]sampling:  10%|█         | 10/100 [00:52<05:50,  3.89s/it]sampling:  11%|█         | 11/100 [00:56<06:00,  4.05s/it]sampling:  12%|█▏        | 12/100 [01:01<06:23,  4.36s/it]sampling:  13%|█▎        | 13/100 [01:06<06:37,  4.57s/it]sampling:  14%|█▍        | 14/100 [01:11<06:46,  4.72s/it]sampling:  15%|█▌        | 15/100 [01:19<08:12,  5.79s/it]sampling:  16%|█▌        | 16/100 [01:22<06:54,  4.94s/it]

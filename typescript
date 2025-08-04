@@ -1,0 +1,7 @@
+Script started on 2023-10-01 21:25:39+0800
+(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ conda activate baseCUDA_VISIBLE_DEVICES=1 nohup python RL_model.py >log/new3.log 2>&1 &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda activate base[K[Kconda activate baseCUDA_VISIBLE_DEVICES=1 nohup python RL_model.py >log/new3.log 2>&1 &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckill 65165[K[K[K[K[K[K[K[K[K[K[Kscript
+Script started, file is typescript
+(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ exit
+exit
+Script done, file is typescript
+(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ [K(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ [K(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ [K(base) ]0;zfren@next-dgx1-01: ~/unicorn[01;32mzfren@next-dgx1-01[00m:[01;34m~/unicorn[00m$ exit

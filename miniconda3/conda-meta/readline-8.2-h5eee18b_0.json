@@ -1,0 +1,83 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "ncurses >=6.3,<7.0a0"
+  ],
+  "extracted_package_dir": "/storage/zfren/miniconda3/pkgs/readline-8.2-h5eee18b_0",
+  "features": "",
+  "files": [
+    "include/readline/chardefs.h",
+    "include/readline/history.h",
+    "include/readline/keymaps.h",
+    "include/readline/readline.h",
+    "include/readline/rlconf.h",
+    "include/readline/rlstdc.h",
+    "include/readline/rltypedefs.h",
+    "include/readline/tilde.h",
+    "lib/libhistory.a",
+    "lib/libhistory.so",
+    "lib/libhistory.so.8",
+    "lib/libhistory.so.8.2",
+    "lib/libreadline.a",
+    "lib/libreadline.so",
+    "lib/libreadline.so.8",
+    "lib/libreadline.so.8.2",
+    "lib/pkgconfig/history.pc",
+    "lib/pkgconfig/readline.pc",
+    "share/doc/readline/CHANGES",
+    "share/doc/readline/INSTALL",
+    "share/doc/readline/README",
+    "share/info/history.info",
+    "share/info/readline.info",
+    "share/info/rluserman.info",
+    "share/man/man3/history.3",
+    "share/man/man3/readline.3"
+  ],
+  "fn": "readline-8.2-h5eee18b_0.conda",
+  "legacy_bz2_md5": "960bf00d81e7bbdeff2c7d01ed78eaeb",
+  "legacy_bz2_size": 467661,
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/storage/zfren/miniconda3/pkgs/readline-8.2-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "be42180685cce6e6b0329201d9f48efb",
+  "name": "readline",
+  "package_tarball_full_path": "/storage/zfren/miniconda3/pkgs/readline-8.2-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/history.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/readline_1666648016169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "450ab807f966299a9f71160deed14aa40e56a56de9595f11db4e640557a57a9b",
+        "sha256_in_prefix": "d0b30acf7be5b76e480b1fcdc9d738ad12c2b8598ad90c7d3a83406ef0649dcc",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/pkgconfig/readline.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/readline_1666648016169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "72a89f8c5c4eca0ee90e99bd903a4e967b599ced760e528ec8beeacd226f8517",
+        "sha256_in_prefix": "41a8d41b56e12c13c3b165a4e1d0ab8f739d84a6328a9aecacc5ebce10310187",
+        "size_in_bytes": 562
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::readline==8.2=h5eee18b_0[md5=be42180685cce6e6b0329201d9f48efb]",
+  "sha256": "3bf83c138bf0843b2fdacc5fe6b0956813b11107540d0233c148b97682e894fb",
+  "size": 365188,
+  "subdir": "linux-64",
+  "timestamp": 1666648052561,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/readline-8.2-h5eee18b_0.conda",
+  "version": "8.2"
+}
