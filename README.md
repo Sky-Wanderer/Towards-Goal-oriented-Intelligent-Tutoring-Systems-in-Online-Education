@@ -1,37 +1,90 @@
-# UNICORN
+# Towards Goal-oriented Intelligent Tutoring Systems in Online Education
 
-The implementation of _Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning_ (SIGIR 2021). 
+## Project Overview
 
-The code is partially referred to https://cpr-conv-rec.github.io/. 
+This repository contains the data files for the research project on goal-oriented intelligent tutoring systems in online education. The main code implementation will be uploaded in the future.
 
-## Data Preparation
-1. Please download the datasets "SCPR_Data.zip" from https://cpr-conv-rec.github.io/, including lastfm, lastfm_start, and yelp. (If you would like to use your own dataset, please follow the same data format.)
-2. Upzip "SCPR_Data.zip" and put "data" folder in the path "unicorn/". 
-3. Processing data: `python graph_init.py --data_name <data_name>`
-4. Use TransE from [[OpenKE](https://github.com/thunlp/OpenKE)] to pretrain the graph embeddings. And put the pretrained embeddings under "unicorn/tmp/<data_name>/embeds/". Or you can directly download the pretrained TransE embeddings from https://drive.google.com/file/d/1qoZMbYCBi2Y4IsJBdJ8Eg6y30Ap0gsQY/view?usp=sharing.
+## Data Structure
 
-## Training
-`python RL_model.py --data_name <data_name>`
+The `data/` folder contains the following datasets:
 
-## Evaluation
-`python evaluate.py --data_name <data_name> --load_rl_epoch <checkpoint_epoch>`
+### MOOCCubeX Dataset
+- **Location**: `data/MOOCCubeX/`
+- **Description**: MOOC (Massive Open Online Course) dataset with student learning data
+- **Contents**:
+  - Graph generation data
+  - Practice data (train/valid/test splits)
+  - ID mapping information
+  - Student statistics
+
+### LastFM Dataset
+- **Location**: `data/lastfm/` and `data/lastfm_star/`
+- **Description**: Music recommendation dataset
+- **Contents**:
+  - FM sample data (train/valid splits)
+  - Graph generation data
+  - User-item interaction data
+  - ID mapping information
+
+### Yelp Dataset
+- **Location**: `data/yelp/`
+- **Description**: Business review dataset
+- **Contents**:
+  - FM sample data (train/valid splits)
+  - Graph generation data
+  - User-item interaction data
+  - Business and category mapping
+
+## File Structure
+
+```
+data/
+├── MOOCCubeX/
+│   ├── Graph_generate_data/
+│   ├── practice_data/
+│   ├── id_map_info/
+│   └── ...
+├── lastfm/
+│   ├── FM_sample_data/
+│   ├── Graph_generate_data/
+│   ├── ID_map_info/
+│   └── UI_Interaction_data/
+├── lastfm_star/
+│   ├── FM_sample_data/
+│   ├── Graph_generate_data/
+│   ├── ID_map_info/
+│   └── UI_Interaction_data/
+└── yelp/
+    ├── FM_sample_data/
+    ├── Graph_generate_data/
+    ├── ID_map_info/
+    └── UI_Interaction_data/
+```
+
+## Status
+
+- ✅ Data files uploaded
+- 🔄 Main code implementation - Coming soon
+- 🔄 Model implementations - Coming soon
+- 🔄 Evaluation scripts - Coming soon
 
 ## Citation
-If the code is used in your research, please star this repo and cite our paper as follows:
-```
-@inproceedings{DBLP:conf/sigir/DengL0DL21,
-  author    = {Yang Deng and
-               Yaliang Li and
-               Fei Sun and
-               Bolin Ding and
-               Wai Lam},
-  title     = {Unified Conversational Recommendation Policy Learning via Graph-based
-               Reinforcement Learning},
-  booktitle = {{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research
-               and Development in Information Retrieval, Virtual Event, Canada, July
-               11-15, 2021},
-  pages     = {1431--1441},
-  publisher = {{ACM}},
-  year      = {2021},
+
+If you use this dataset in your research, please cite our work:
+
+```bibtex
+@article{your-paper-title,
+  title={Towards Goal-oriented Intelligent Tutoring Systems in Online Education},
+  author={Your Name},
+  journal={Journal Name},
+  year={2024}
 }
 ```
+
+## Contact
+
+For questions about the dataset or project, please contact: [Your Email]
+
+## License
+
+[Specify your license here]
